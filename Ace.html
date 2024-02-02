@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: whitesmoke;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: grey;
+            padding: 15px;
+            text-align: center;
+        }
+        header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        header h1 {
+            font-size: 23px;
+            font-weight: bolder;
+            margin: 5px 0;
+        }
+        header p {
+            font-size: 15px;
+            font-weight: bold;
+            font-family: 'Cutive Mono', monospace;
+            margin: 5px 0;
+        }
+        section {
+            display: flex;
+            margin: 5% 2% 0 10%;
+        }
+        section > div {
+            flex: 1;
+            margin-right: 5%;
+        }
+        section a {
+            text-decoration: none;
+            color: black;
+        }
+        section hr {
+            background: grey;
+            margin: 10px 0;
+        }
+        section h2 {
+            font-size: 20px;
+            font-weight: bolder;
+            margin: 5px 0;
+            position: relative;
+            display: inline-block;
+        }
+        section h2 a {
+            position: absolute;
+            top: 4px;
+            right: 8px;
+            font-size: 15px;
+        }
+        section strong {
+            font-weight: bolder;
+        }
+        section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        section li {
+            margin-bottom: 20px;
+        }
+        section p {
+            color: #0e141e;
+            font-weight: bolder;
+            font-size: 18px;
+            line-height: 2;
+        }
+        section p i {
+            font-size: 18px;
+        }
+        section a.edit {
+            font-weight: 400;
+            font-size: 15px;
+            margin-left: 25px;
+            color: #097bbf;
+        }
+        @media screen and (max-width: 850px) {
+            section {
+                display: block;
+            }
+            section > div {
+                width: 90%;
+            }
+            section hr {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Photos/ALV.Profile pic.jpeg" alt="Profile-Image">
+        <h1>Ace L. Vendil</h1>
+        <p>Student | Holy Cross College</p>
+    </header>
+    <section>
+        <div>
+            <hr>
+            <h2>About</h2>
+            <p>Expected Year of Graduation<br><strong>2025</strong></p>
+            <p>Education<br><strong>Bachelor of Science Information Technology <br><br> Bachelor of Science Information System</strong></p>
+            <p>Telephone<br><strong>09051641182</strong></p>
+            <p>Facebook<br><strong>@ACE</strong></p>
+        </div>
+        <div>
+            <hr>
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <p>Company TCH<br><span>MANILA | <span>2019</span></span></p>
+                    <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
+                </li>
+                <li>
+                    <p>Tch Mahindra<br><span>Manila, PH | <span>2022</span></span></p>
+                    <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
+                </li>
+            </ul>
+            <hr>
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <p>Holy Cross College<br><span>Bachelor of Science Information Technology | <span>June 203</span></span></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
